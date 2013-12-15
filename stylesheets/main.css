@@ -221,5 +221,9 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
   color: #6D929B;
   text-align: left;
 }
-
+.content li {
+  font-family: 'Helvetica' Helvetica;
+  font-size: 13pt;
+  color: #634705;
+}
 
