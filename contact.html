@@ -4,7 +4,7 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<title>AIG | About the Office</title>
+<title>AIG | Contact Us</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="stylesheets/foundation.min.css">
@@ -47,6 +47,38 @@
       </div>
     </div>
     <!-- END Header -->
+    <div class="row">
+      <div class="heading_dots">
+        <h1 class="heading_largesize"><span class="heading_center_bg">Contact Us</span></h1>
+      </div>
+    </div>
+    <div class="row">
+      <form>
+      <div class="box" style="width: 99%; margin-left:0 auto; margin-right:0 auto;">
+        <div class="contact c-11">
+          <label>
+            <span>Full Name*</span>
+            <input type="text" class="input_text" id="fullName" name="name" />
+          </label>
+          <label>
+            <span>Email*</span>
+            <input type="text" class="input_text" id="email" name="email" />
+          </label>
+          <label>
+            <span>Subject</span>
+            <input type="text" class="input_text" id="subject" name="subject" />
+          </label>
+          <label>
+            <span>Message*</span>
+            <textarea class="message" name="message" id="message"></textarea>
+          </label>
+          <p>*Required Fields.</p>
+          <input onclick="contactMe();" type="button" id="submitMessageButton" value="Send Message" />
+        </div>
+      </div>
+      </form>
+   </div>
+   <hr>
     <div class="row">
       <div class="six columns">
         <h3>Contact us</h3>
@@ -101,6 +133,11 @@
   <!-- end page wrap) -->
 </div>
 <!-- end page wrap) -->
+<script>
+  function contactMe() {
+    alert("Contact Functionality not yet operational, please be patient.");
+  }
+</script>
 <!-- Included JS Files (Compressed) -->
 <script src="javascripts/foundation.min.js"></script>
 <!-- Initialize JS Plugins -->
